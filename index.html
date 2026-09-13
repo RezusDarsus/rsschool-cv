@@ -1,36 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rezo Darsavelidze CV</title>
-    <link rel="stylesheet" href="graphics.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <meta
+    name="description"
+    content="CV of Rezo Darsavelidze, Computer Science student and software engineer from Kutaisi, Georgia."
+  >
+
+  <title>Rezo Darsavelidze - RS School CV</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header id="top">
+    <div class="header-content">
+      <img
+        src="images/rezodarsavelidze.jpg"
+        alt="Photo of Rezo Darsavelidze"
+        class="profile-image"
+      >
 
-<header>
-  <img src="images/rezodarsavelidze.jpg" alt="Rezo Darsavelidze" class="profile-image">
+      <div class="header-text">
+        <h1>Rezo Darsavelidze</h1>
 
-<div>
-    <h1>Rezo Darsavelidze</h1>
-    <p>Software Engineer| AI Engineer | Web Developer | Tech Enthusiast</p>
-</div>
+        <p>
+          Software Engineer | Backend Developer | AI Engineer | Web Developer
+        </p>
+      </div>
+    </div>
 
-<nav>
-    <li><a href="#About">About</a></li>
-    <li><a href="#Contacts">Contacts</a></li>
-    <li><a href="#Skills">Skills</a></li>
-    <li><a href="#SolutionOfCodeforce">SolutionOfCodeforce</a></li>
-    <li><a href="#Experience">Experience</a></li>
-    <li><a href="#Projects">Projects</a></li>
-    <li><a href="#Education">Education</a></li>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code-example">Code Example</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#languages">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
 
-</nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
 
-</header>
+      <p>
+        I am a Computer Science student and software developer based in Kutaisi,
+        Georgia, with experience in backend development, AI-powered applications,
+        and web technologies.
+      </p>
 
+      <p>
+        My primary technology stack includes Java, Spring Boot, PostgreSQL,
+        JavaScript, Python, React, TypeScript, Docker, AWS, and modern
+        LLM/RAG systems. I enjoy designing backend architectures, building
+        practical software products, solving technical problems, and learning
+        new technologies.
+      </p>
 
+      <p>
+        Alongside software development, I teach robotics and programming.
+        Teaching has strengthened my communication skills and my ability to
+        explain technical concepts clearly.
+      </p>
 
+      <p>
+        My current goal is to deepen my software engineering knowledge,
+        strengthen my frontend and backend development skills, gain more
+        production experience, and contribute to real-world software projects
+        as part of a professional engineering team.
+      </p>
+    </section>
+
+    <section id="contacts">
+      <h2>Contact Information</h2>
+
+      <ul>
+        <li>
+          Location: Kutaisi, Georgia
+        </li>
+
+        <li>
+          Email:
+          <a href="mailto:darsavelidzerezo@gmail.com">
+            darsavelidzerezo@gmail.com
+          </a>
+        </li>
+
+        <li>
+          GitHub:
+          <a
+            href="https://github.com/RezusDarsus"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            RezusDarsus
+          </a>
+        </li>
+
+        <li>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/rezo-darsavelidze/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Rezo Darsavelidze
+          </a>
+        </li>
+
+        <li>
+          Discord: rezo_darsavelidze
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Spring Boot</li>
+        <li>REST APIs</li>
+        <li>React</li>
+        <li>Fastify</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>pgvector</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>GitHub Actions</li>
+        <li>JUnit</li>
+        <li>Mockito</li>
+        <li>Microservices</li>
+        <li>Design Patterns</li>
+        <li>RAG and Vector Search</li>
+      </ul>
+    </section>
+
+<section id="code-example">
+  <h2>Code Example</h2>
+
+  <p>
+    Codewars: "Convert a Number to a String!" (8 kyu).
+    Convert the given integer into its string representation.
+  </p>
+
+  <pre><code>class Kata {
+    public static String numberToString(int num) {
+        return String.valueOf(num);
+    }
+}</code></pre>
+</section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <article>
+        <h3>Founder &amp; Lead Software Engineer - OneUp</h3>
+
+        <p>
+          <time datetime="2026-08">August 2026</time> - Present |
+          Remote, Georgia
+        </p>
+
+        <ul>
+          <li>
+            Building an AI-native learning platform using React, TypeScript,
+            Fastify, PostgreSQL, pgvector, Docker, and LLM/RAG pipelines.
+          </li>
+
+          <li>
+            Designed hybrid retrieval, persistent cross-chat memory,
+            adaptive-learning workflows, exam-readiness features, and an
+            AI study-planning Copilot.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Software Engineering Intern - EPAM Systems</h3>
+
+        <p>Remote, Georgia</p>
+
+        <ul>
+          <li>
+            Worked with Java, Spring Boot, MongoDB, AWS, REST APIs, validation,
+            and automated testing.
+          </li>
+
+          <li>
+            Contributed to modular backend architecture and CI/CD workflows
+            using GitHub Actions in an Agile development environment.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Mentor of Robotics and Coding - Steve Jobs Academy</h3>
+
+        <p>
+          <time datetime="2025-09">September 2025</time> - Present |
+          Kutaisi, Georgia
+        </p>
+
+        <ul>
+          <li>
+            Teach programming and robotics concepts to students.
+          </li>
+
+          <li>
+            Work with programming fundamentals, algorithmic thinking,
+            robotics, and autonomous robot design.
+          </li>
+
+          <li>
+            Help students understand technical concepts through practical
+            projects and exercises.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Engineer - ESTB GmbH</h3>
+
+        <p>
+          <time datetime="2025-07">July 2025</time> -
+          <time datetime="2025-09">September 2025</time> |
+          Arnsberg-Neheim, Germany
+        </p>
+
+        <ul>
+          <li>
+            Performed precision assembly and quality inspection in a
+            mechanical production environment.
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Temporary Warehouse Assistant - DHL</h3>
+
+        <p>
+          <time datetime="2024-06">June 2024</time> -
+          <time datetime="2024-09">September 2024</time> |
+          Neumünster, Germany
+        </p>
+
+        <ul>
+          <li>
+            Supported packaging, inventory management, and shipment
+            coordination in a high-throughput logistics environment.
+          </li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="projects">
+      <h2>Educational and Personal Projects</h2>
+
+      <ul class="project-list">
+        <li>
+          <h3>OneUp - AI Learning Platform</h3>
+
+          <p>
+            AI-powered study workspace featuring retrieval, vector search,
+            persistent AI memory, adaptive learning, exam-readiness workflows,
+            and AI-assisted planning.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            React, TypeScript, Fastify, PostgreSQL, pgvector, Docker, LLM/RAG.
+          </p>
+
+          <a
+            href="https://github.com/RezusDarsus/StudyOs"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code on GitHub
+          </a>
+        </li>
+
+        <li>
+          <h3>Gym Management System</h3>
+
+          <p>
+            Backend application built with Java and Spring technologies,
+            demonstrating REST API development, authentication, database
+            integration, and layered application architecture.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            Java, Spring Boot, PostgreSQL, Hibernate, REST APIs.
+          </p>
+
+          <a
+            href="https://github.com/RezusDarsus/Gym_Spring_Project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code on GitHub
+          </a>
+        </li>
+
+        <li>
+          <h3>JavaFX Creations</h3>
+
+          <p>
+            Collection of interactive JavaFX projects demonstrating GUI
+            development, event handling, animation, and game logic.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            Java, JavaFX, event handling, animation.
+          </p>
+
+          <a
+            href="https://github.com/RezusDarsus/Java-JavaFXCreations"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code on GitHub
+          </a>
+        </li>
+
+        <li>
+          <h3>Frontend Projects</h3>
+
+          <p>
+            Collection of web-development exercises and frontend projects
+            created while developing skills in HTML, CSS, and JavaScript.
+          </p>
+
+          <p>
+            <strong>Technologies:</strong>
+            HTML, CSS, JavaScript.
+          </p>
+
+          <a
+            href="https://github.com/RezusDarsus/Frontend-projects"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code on GitHub
+          </a>
+        </li>
+
+        <li>
+          <h3>RS School CV</h3>
+
+          <p>
+            This responsive CV website created using semantic HTML5, CSS,
+            Git, GitHub branches, and the Pull Request workflow.
+          </p>
+
+          <a
+            href="https://github.com/RezusDarsus/rsschool-cv"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View source code on GitHub
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+
+      <article>
+        <h3>B.Sc. in Computer Science</h3>
+
+        <p>
+          Kutaisi International University,
+          Kutaisi, Georgia
+        </p>
+
+        <p>
+          <time datetime="2023">2023</time> - Present
+        </p>
+      </article>
+
+      <h3>Additional Learning</h3>
+
+      <ul>
+        <li>
+          RS School - JavaScript / Front-end Short Track
+        </li>
+
+        <li>
+          EPAM - Software Engineering / Java development training
+        </li>
+
+        <li>
+          Continuous independent study of Java, Spring Boot, backend
+          engineering, AI systems, web development, and cloud technologies
+        </li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2>Languages</h2>
+
+      <ul>
+        <li><strong>Georgian:</strong> Native</li>
+        <li><strong>English:</strong> C1 - Advanced</li>
+        <li><strong>Russian:</strong> C1 - Advanced</li>
+        <li><strong>German:</strong> A2 - Elementary</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <a
+        href="https://github.com/RezusDarsus"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub - RezusDarsus
+      </a>
+
+      <p>&copy; 2026 Rezo Darsavelidze</p>
+
+      <a
+        href="https://rs.school/courses/short-track"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="rsschool-link"
+      >
+        <img
+          src="https://rs.school/_next/static/media/rss-logo.c19ce1b4.svg"
+          alt="RS School logo"
+          class="rsschool-logo"
+        >
+        <span>RS School</span>
+      </a>
+
+      <a href="#top" class="back-to-top" aria-label="Back to top">
+        Back to top
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
